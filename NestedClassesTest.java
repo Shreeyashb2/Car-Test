@@ -87,6 +87,7 @@ class BankAccount
 		System.out.println("de-Activating the withdrawal....");
 		bankPerm.setWithdraw(deActivate);
 	}
+	
 	public BankAccount(int acno, String acname, double balance) {
 		super();
 		this.acno = acno;
@@ -112,6 +113,7 @@ class BankAccount
 		String transactionType;
 		double transactionAmount;
 		double remaniningBalance;
+		
 		public int getSerialId() {
 			return serialId;
 		}
@@ -199,19 +201,4 @@ class BankAccount
 
 		
 	}
-}
-
-class Tree
-{
-	Nest sparrowNest = new Nest();
-	class Nest
-	{
-		
-	}	
-	
-}
-
-class River
-{
-	//Nest crocodileNest = new Nest();
 }

@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class DailyRoutine {
 	public static void main(String[] args) {
 		System.out.println("Good Morning Shreeyash");
@@ -51,16 +49,18 @@ class TimeSpend {
 		breakfast();
 	}
 	void breakfast() {
-		System.out.println("Breakfast doing");
+		System.out.println("Breakfast is good enough :) ");
 		java();
 	}
 	void java() {
-		System.out.println("Java starts");
+		System.out.println("Java Training Starts...");
 		lunch();
 	}
 	void lunch() {
-		System.out.println("Lunch starts");
-		java();
+		System.out.println("Lunch is Okay Okay could be better :|");
+		
+		System.out.println("Needs Espresso Immediately.....");
+		//java();
 	}
 	void snacks() {
 		System.out.println("Lets eat some snacks");

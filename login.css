@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image : url('air3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	
+}
+
+h1{
+	color: black;
+}
+
+
+table{
+	margin-left : auto;
+	margin-right : auto;
+	
+	font-size: 26px;
+	font-family: "MS Reference Sans Serif";
+	background-color:rgba(0, 0, 0, 0);
+	background-size: cover;
+	-webkit-background-size : cover;
+	
+}
+
+p {
+     color: rgba(234, 240, 246, 0.8);
+    font-size: 48pt;
+    text-align: center;
+}
+div {
+    opacity: 0.5;
+} 
